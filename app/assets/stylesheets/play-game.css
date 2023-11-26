@@ -1,0 +1,34 @@
+.main-container {
+  text-align: center;
+  justify-content: center;
+}
+
+.timer-message {
+
+}
+
+.timer {
+
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.memephinx .image {
+  width: 500px;
+  height: 500px;
+}
+
+.question {
+  border: solid 2px brown;
+  background: #ffffff;
+  width: 500px;
+  height: 500px;
+}
+
+.answer {
+  margin-top: 32px;
+}

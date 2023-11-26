@@ -1,0 +1,17 @@
+.gameover-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gameover-image {
+  width: 600px;
+  height: 600px;
+}
+
+.retry {
+  font-size: 24px;
+}
