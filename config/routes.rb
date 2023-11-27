@@ -6,5 +6,8 @@ Rails.application.routes.draw do
 
   get 'questions/top', to: 'questions#top'
   get 'questions/game', to: 'questions#game'
+  get 'questions/answer', to: 'questions#answer'
+  post 'questions/answer', to: 'questions#answer'
   get 'questions/gameover', to: 'questions#gameover'
+  get 'questions/clear', to: 'questions#clear'
 end

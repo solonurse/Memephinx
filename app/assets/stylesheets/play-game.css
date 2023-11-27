@@ -8,7 +8,7 @@
 }
 
 .timer {
-
+  margin-bottom: 32px;
 }
 
 .game-container {
@@ -22,7 +22,7 @@
   height: 500px;
 }
 
-.question {
+.question-container {
   border: solid 2px brown;
   background: #ffffff;
   width: 500px;
@@ -30,5 +30,20 @@
 }
 
 .answer {
-  margin-top: 32px;
+  margin-top: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 30px;
+}
+
+input[type="submit"] {
+  height: 30px;
+  margin-left: 8px;
 }

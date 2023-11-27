@@ -3,8 +3,10 @@
   <h2 class='timer'>00:00</h2>
   <div class='game-container'>
     <div class='memephinx'><%= image_tag 'memephinx.jpg', class: 'image' %></div>
-    <div class='question'>問題</div>
+    <div class='question-container question-#{@questions.id}'>
+      <p>今いいとこなんだけどマジでやるの？</p>
+      <%= link_to 'いいや限界だ押すね今だッ', questions_answer_path %>
+    </div>
   </div>
-  <div class='answer'>解答</div>
 </div>
 
