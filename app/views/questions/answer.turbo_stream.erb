@@ -1,7 +1,7 @@
-<%= turbo-stream.replace "question-container question-#{@questions.id}" do %>
-  <div class='question-container question-#{@questions.id}'>
+<%= turbo_stream.replace "question-container" do %>
+  <div>
     <p>問題</p>
-    <%= form_with url: questions_answer_path, class: 'answer' do |f| %>
+    <%= form_with url: questions_answer_path, class: 'answer', data: { turbo_method: :post } do |f| %>
       <%= f.label :answer, 'ひらがなで入力してください' %>
       <%= f.text_field :answer %>
       <%= f.submit %>
