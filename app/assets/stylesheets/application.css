@@ -15,15 +15,23 @@
  */
 @import 'top';
 @import 'play-game';
+@import 'gameclear';
+@import 'gameover';
 
  header .title {
   color: black;
   font-size: 32px;
   font-family: "Gill Sans", sans-serif;
   text-decoration: none;
+  margin: 0 auto;
 }
 
- header .container {
+header .title {
   text-align: center;
-  background: rgb(246, 242, 242);
+}
+
+body {
+  background-image: url(メジェド様壁紙.jpg);
+  background-size: cover;
+  background-position: center;
 }

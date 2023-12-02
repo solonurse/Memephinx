@@ -1,41 +1,30 @@
 .main-container {
   text-align: center;
-  justify-content: center;
-}
-
-.timer-message {
-
-}
-
-.timer {
-  margin-bottom: 32px;
-}
-
-.game-container {
   display: flex;
   justify-content: center;
-  gap: 32px;
 }
 
 .memephinx .image {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
+  margin: 16px 0;
 }
 
 .question-container {
   border: solid 2px brown;
   background: #ffffff;
-  width: 500px;
-  height: 500px;
+  width: 650px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  text-align: left;
 }
 
 .answer {
-  margin-top: 24px;
-}
-
-label {
-  display: block;
-  margin-bottom: 8px;
+  margin: auto 0 32px 0;
 }
 
 input[type="text"] {
@@ -46,4 +35,14 @@ input[type="text"] {
 input[type="submit"] {
   height: 30px;
   margin-left: 8px;
+}
+
+.line {
+  font-size: 18px;
+  text-align: left;
+}
+
+.reply {
+  margin: auto 0 32px 0;
+  height: 64px;
 }
