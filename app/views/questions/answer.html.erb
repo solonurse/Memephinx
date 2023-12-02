@@ -2,7 +2,7 @@
   <div class='game-container'>
     <div class='memephinx'><%= image_tag 'memephinx.jpg', class: 'image' %></div>
     <div class="question-container">
-      <%= render 'start', question_count: @question_count %>
+      <%= render 'quiz', question: @question, question_count: @question_count %>
     </div>
   </div>
 </div>

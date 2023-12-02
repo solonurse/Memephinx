@@ -1,0 +1,9 @@
+<div>第<%= question_count %>問</div>
+<p class='content'><%= question.content %></p>
+<p><%= question.example %></p>
+<%= form_with url: questions_answer_path, class:'answer', method: :post, data: { turbo: false } do |f| %>
+  <%= f.text_field :answer, placeholder: 'ひらがなで入力してください' %>
+  <%= f.hidden_field :question_id, value: question.id %>
+  <%= f.hidden_field :answered_question, value: question_count %>
+  <%= f.submit %>
+<% end %>

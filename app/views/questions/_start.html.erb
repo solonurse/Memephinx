@@ -1,0 +1,5 @@
+<p class='line'>ゑ?クイズに挑戦するの？今ソシャゲのデイリー消化してるんだけど・・・<br>しょうがないにゃあ・・・もうちょっと待っててよ</p>
+<%= form_with url: questions_answer_path, class: 'reply', method: :post, data: { turbo: false } do |f| %>
+  <%= f.hidden_field :answered_question, value: question_count %>
+  <%= f.submit 'いいや!限界だやるねッ!' %>
+<% end %>
