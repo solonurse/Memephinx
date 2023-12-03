@@ -5,5 +5,5 @@
   <%= f.text_field :answer, placeholder: 'ひらがなで入力してください' %>
   <%= f.hidden_field :question_id, value: question.id %>
   <%= f.hidden_field :answered_question, value: question_count %>
-  <%= f.submit %>
+  <%= f.submit '回答する' %>
 <% end %>
